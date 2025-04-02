@@ -1,84 +1,281 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <script defer src="script.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Balakirushnan jashvanth">
+  <meta name="description" content="balakirushnan Jashvanth's personal website">
+  <title>Jashvanth</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
+
 <body>
-    <header>
-        <nav>
-            <div class="logo"> <img src="logo.png" alt="Logo"> </div>
-            <ul class="nav-right">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-    <section id="home" class="home-section">
-        <div class="home-content">
-            <h2>Hello...</h2>
-            <h1>I’m <span>Balakirushnan jashvanth</span></h1>
-            <p>Software Engineer</p>
-            <div class="contact-info">
-                <a href="mailto:jashva25@gmail.com"><i class="fa-solid fa-envelope"></i> jashva25@gmail.com</a> <br><br>
-                <a href="tel:+94779430824"><i class="fa-brands fa-whatsapp"></i> <span>   +94 77 94 30 824</span> </a>
-            </div>            
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><i class="fa-brands fa-unity fa-2xl"></i></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fa-solid fa-bars fa-xl"></i></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact Me </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HomePage -->
+  <section id="home">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-5 col-md-5 col-12 d-flex justify-content-center" id="myImage">
+          <img src="images//WhatsApp Image 2024-07-29 at 23.50.22_09a9cd3e.jpg" class="img-fluid" alt="mypic">
         </div>
-        <div class="profile-image">
-            <img src="your-photo.png" alt="Your Image">
+        <div class="col-lg-7 col-md-7 col-12 ">
+          <div id="myIntro" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500"
+            data-aos-duration="500">
+            <p id="hello">Hello...</p>
+            <p id="name">I'm Balakirushnan Jashvanth</p>
+            <p id="job">Software Engineer in Srilanka.</p>
+            <a class="btn getMe" id="getMe" style="color:#00ccb4">
+              <i class="fa-regular fa-envelope fa-2x" style="color:#00ccb4"></i>&nbsp;jashva25@gmail.com</a>
+            <br />
+            <a class="btn getMe get-me-contact" style="color:#4CB9E7">
+              <i class="fa-brands fa-whatsapp fa-2x" style="color:#4CB9E7"></i>&nbsp;+94779430824</a>
+
+          </div>
         </div>
-        <div class="social-icons">
-            <a href="https://linkedin.com/in/balakirushnan-jashvanth"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="https://github.com/jashvanth370"><i class="fa-brands fa-github"></i></a>
-            <a href="mailto:jashva25@gmail.com"><i class="fa-solid fa-envelope"></i></a>
-            <a href="https://www.facebook.com/jv.jashva/"><i class="fa-brands fa-facebook"></i></a>
-            <a href="https://wa.me/+94779430824"><i class="fa-brands fa-whatsapp"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <div id="contact" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+    <a href="https://www.linkedin.com/in/balakirushnan-jashvanth"><i class="fa-brands fa-linkedin fa-2x"
+        style="color:#00ccb4"></i></a>
+    <a href="https://github.com/jashvanth370"><i class="fa-brands fa-github fa-2x" style="color:#00ccb4"></i></a>
+    <a href="mailto:jashva25@gmail.com"><i class="fa-regular fa-envelope fa-2x" style="color:#00ccb4"></i></a>
+    <a href="https://www.facebook.com/jv.jashva/"><i class="fa-brands fa-square-facebook fa-2x"
+        style="color:#00ccb4"></i></a>
+    <a href="https://wa.me/+94779430824"><i class="fa-brands fa-whatsapp fa-2x" style="color:#00ccb4"></i></a>
+  </div>
+
+  <!-- About -->
+  <section id="about">
+    <div class="container">
+      <h2><span><i class="fa-solid fa-greater-than fa-sm"></span></i> ABOUT ME</h2>
+      <div class="row">
+        <div id="myPara" class="col-lg-7 col-md-7 col-12">
+          <p data-aos="fade-up">
+            Hi, I'm Balakirushnan Jashvanth, an enthusiastic undergraduate Software Engineering student at 
+            the University of Kelaniya, currently maintaining a GPA of 3.40 in my first year. My passion for 
+            technology drives me to explore and build innovative solutions, combining creativity with strong 
+            problem-solving skills.
+          <br><br>
+            I began my academic journey at BT/KK/Chenkalady Central College, where I developed a strong 
+            foundation in programming and problem-solving. Over time, I have gained proficiency in HTML,
+             CSS, Java, JavaScript, MySQL, PHP, React, Spring Boot, Bootstrap, and Tailwind CSS. I enjoy 
+             working on both front-end and back-end development, striving to create seamless, efficient,
+              and user-friendly applications.
+          <br><br>
+            Beyond academics, I actively participate in tech communities, hackathons, and coding competitions 
+            to sharpen my skills and stay updated with the latest industry trends. I am also involved in 
+            university clubs and extracurricular activities, which help me build leadership, teamwork, and 
+            communication skills.
+          <br><br>
+            In my free time, I love coding personal projects, exploring open-source contributions, and 
+            blogging about technology. Apart from tech, I enjoy reading, playing chess, and engaging in 
+            outdoor sports. My curiosity and passion for learning drive me to continuously improve and
+             take on new challenges in software development.
+          <br><br>
+            I am always eager to collaborate on exciting projects, learn new technologies, and 
+            contribute to the ever-evolving world of software engineering.
+          <br><br>
+            My soft skills include being a team player, effective communication, adept problem-solving 
+            abilities, and strong time management skills. With my qualifications, experience, and enthusiasm, 
+            I am confident in my ability to excel in any role that requires a dedicated and proficient software 
+            engineer and full-stack developer.
+          </p>
         </div>
-    </section>
-    
-    <section id="about">
-        <h2>About Me</h2>
-        <p>A brief introduction about yourself and your experience.</p>
-    </section>
-    
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="filter-buttons">
-            <button onclick="filterProjects('all')">All</button>
-            <button onclick="filterProjects('web')">Web</button>
-        </div>
-        <div class="project-list">
-            <div class="project" data-category="web">
-                <h3>Web Project</h3>
-                <p>Description of the web project.</p>
+
+        <div class="col-lg-5 col-md-5 col-12 d-flex flex-column justify-content-center ">
+          <div class="card">
+
+            <a href="#" data-aos="fade-up"><img src="images//WhatsApp Image 2025-04-02 at 12.26.26_a867ab66.jpg" class="card-img-top img-fluid"
+              alt="my-profile"></a>
+            
+            
+            <div class="card-body" id="button" data-aos="fade-up">
+              <a href="https://www.linkedin.com/in/balakirushnan-jashvanth/" class="btn ">linkedin</a>
+              <a href="https://github.com/jashvanth370" class="btn ">github</a>
             </div>
-            <div class="project" data-category="mobile">
-                <h3>Mobile App</h3>
-                <p>Description of the mobile project.</p>
+
+          
+          <div class="cartEducation mt-2">
+            <h2><span><i class="fa-solid fa-greater-than "></span></i>  EDUCATION</h2>
+
+            <div class="education-card" data-aos="fade-up">
+              <div class="details">
+                <p class="course-name">B.SC(Hons) in Software Engineering</p>
+                <p class="date">2023 jul - present</p>
+                <p class="place">University of Kelaniya</p>
+              </div>
             </div>
+
+            <div class="education-card" data-aos="fade-up">
+              <div class="details">
+                <p class="course-name">BT/KK/CHENKALADY CENTRAL COLLEGE </p>
+                <p class="date">Results : 2A B</p>
+                <p class="place">2021 A/L | physical science stream</p>
+              </div>
+            </div>
+          </div>
+          
         </div>
-    </section>
-    
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <form>
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea placeholder="Your Message" required></textarea>
-            <button type="submit">Send Message</button>
-        </form>
-    </section>
-    
-    <footer>
-        <p>&copy; 2025 Balakirushnan jashvanth. All rights reserved.</p>
-    </footer>
+      </div>
+
+      <div class="mobileButton" data-aos="fade-up">
+        <a href="https://linkedin.com/in/balakirushnan-jashvanth/" class="btn ">linkedin</a>
+        <a href="https://github.com/jashvanth370" class="btn ">github</a>
+      </div>
+
+    </div>
+    </div>
+  </section>
+
+  <!-- experience -->
+  <section id="experience">
+    <div class="container">
+        <div class="col-lg-5  col-12" id="techStack">
+          <h2><span><i class="fa-solid fa-greater-than fa-sm"></span></i> Tech Stack</h2>
+          <p id="intro" data-aos="zoom-in">Usually the tools I use for the job, depend on the job. There's no one-size
+            fits all, and as such I'm always trying out new technologies, and constantly learning.</p>
+          <div id="Technologies" data-aos="zoom-in">
+            <p id="head">Programming Languages</p>
+            <div>
+              <p style="background-color:#3178c6 ; padding: 4px 12px;">TypeScript</p>
+              <p style="background-color:#F0DB4F ; padding: 4px 12px;">JavaScript</p>
+              <p style="background-color:#00add8 ; padding: 4px 12px;">Go</p>
+              <p style="background-color:#b33f90 ;padding: 4px 12px;">Python</p>
+              <p style="background-color:#007396 ; padding: 4px 12px;">Java</p>
+              <p style="background-color:#4479a1 ; padding: 4px 12px;">SQL</p>
+              <p style="background-color:#777bb4 ; padding: 4px 12px;">Php</p>
+              <p style="background-color:#A9B9CB ; padding: 4px 12px;">C</p>
+            </div>
+          </div>
+          <div id="Technologies" data-aos="zoom-in">
+            <p id="head"> Frameworks & Technologies</p>
+            <div>
+              <p style="background-color:#09d3ac ; padding: 4px 12px;">React js</p>
+              <p style="background-color:#6DB33F ; padding: 4px 12px;">Spring boot</p>
+              <p style="background-color:#02569b ; padding: 4px 12px;">Flutter</p>
+              <p style="background-color:#9fa727 ;padding: 4px 12px;">FastApi</p>
+              <p style="background-color:#F5820D ; padding: 4px 12px;">Firebase</p>
+              <p style="background-color:#3c873a ; padding: 4px 12px;">Express Js </p>
+              <p style="background-color:#09d3ac ; padding: 4px 12px;">React Native</p>
+              <p style="background-color:#f05138 ; padding: 4px 12px;">Ios</p>
+              <p style="background-color:#F1502F ; padding: 4px 12px;">Git</p>
+              
+            </div>
+          </div>
+          <div id="Technologies" data-aos="zoom-in">
+            <p id="head">Databases</p>
+            <div>
+              <p style="background-color:#4479a1 ; padding: 4px 12px;">MySQL</p>
+              <p style="background-color:#47a248 ; padding: 4px 12px;">Mongo</p>
+              <p style="background-color:#336791 ; padding: 4px 12px;">PostgreSQL</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <div class="container">
+      <h2><span><i class="fa-solid fa-greater-than fa-sm"></span></i> PROJECTS</h2>
+      <div class="row d-flex justify-content-center" id="projects">
+        <div class="col-lg-10" id="project" data-aos="fade-up">
+          <h4>KOKO</h4>
+          <h5>at Daraz Financial Services</h5>
+          <p id="description">
+            Users can shop at their favorite retailers just got easier with
+            a Python-based Decision engine system. They can split the
+            cost of their purchases into 3 interest-free payments.Each spring boot applications
+            deployed seprate services and work as microservice.
+          </p>
+        </div>
+        <div class="col-lg-10" id="project" data-aos="fade-up">
+          <h4>Sillara Agri Tech</h4>
+          <h5>at Mitra Innovations</h5>
+          <p id="description">
+            Sillara is an online market place located in SriLanka
+            connecting B2B. Hotel, and restaurants can directly connect
+            vegetable and grocery suppliers.
+          </p>
+        </div>
+        <div class="col-lg-10" id="project" data-aos="fade-up">
+          <h4>Dygisec Triton</h4>
+          <h5>at Mitra Innovations</h5>
+          <p id="description">
+            Headquartered in Singapore, with operations in SriLanka
+            and the US, Dygisec product company focused on Cloud
+            Security. DygiSec is Cloud agentless, data driven cloud
+            security solution.
+          </p>
+        </div>
+        <div class="col-lg-10" id="project" data-aos="fade-up">
+          <h4>Cellcard Mobile</h4>
+          <h5>at Mitra Innovations</h5>
+          <p id="description">
+            Cambodian Telecoms company operating in 4G LTE.
+            Selfcare Mobile app available on android, ios, huawei
+            android platforms. I worked on react native and android,
+            ios huawei native level configurations.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  
+
+  <!-- footer -->
+  <footer>
+    <div>
+      <p><i class="fa-regular fa-copyright fa"></i><a href=""> Balakirushnan Jashvanth</a> 2025</p>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
