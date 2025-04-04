@@ -512,6 +512,12 @@ h5 {
     font-size: 1.2vw;
 }
 
+#contactme #description,
+h5 {
+    color: #E4F1FF;
+    font-weight: 900;
+    letter-spacing: .2vw;
+}
 
 #message{
     border-radius: 10px;

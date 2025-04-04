@@ -248,7 +248,8 @@
     <h2><span><i class="fa-solid fa-greater-than fa-sm"></span></i> CONTACT ME</h2>
     <p id="description" class="col-lg-10" id="contactme" data-aos="fade-up">If you have any questions or would like to get in touch, feel free to send me a message!</p>
 
-    <form id="contactForm" >
+    <form id="contactForm" name="contact" method="POST" data-netlify="true" type="hidden" name="form-name" value="contact" 
+    action="https://formsubmit.co/f/mnqkylzy" method="POST" action="https://formsubmit.co/jashva25@email.com">
       <div class="mb-3" class="col-lg-10" id="project" data-aos="fade-up">
         <label for="name" class="form-label">Name</label>
         <input type="text" class="form-control" id="name" placeholder="Your Name" required style="background-color: rgba(8, 14, 32, 0.9);">
@@ -259,7 +260,7 @@
       </div>
       <div class="col-lg-10" id="project" data-aos="fade-up">
         <label for="message" class="form-label">Message</label>
-        <textarea class="form-control" id="message" rows="4" placeholder="Your message..." required style="background-color: rgba(8, 14, 32, 0.9);"></textarea>
+        <textarea class="form-control" id="message" rows="4" placeholder="Your message..." required style="background-color: rgba(8, 14, 32, 0.9); color: white;"></textarea>
       </div>
       <br>
       <button type="submit" class="btn btn-primary" id="message">Send Message</button>
