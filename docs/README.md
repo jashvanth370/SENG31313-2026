@@ -4,7 +4,7 @@
 This is my personal portfolio website created for the **SENG31313-2025** course. It showcases my skills, projects, and allows visitors to contact me.
 
 ## 🚀 Live Hosted Link
-🔗 [Click here to view the site](https://your-hosted-site.com)
+🔗 [Click here to view the site](https://jashvanth370.github.io/SENG31313-2026/)
 
 ## 🛠️ Libraries Used
 
