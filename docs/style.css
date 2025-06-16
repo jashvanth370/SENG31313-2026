@@ -49,7 +49,31 @@ body {
 
 #myIntro .btn {
     display: inline !important;
+
 }
+
+#myIntro .cv {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #4CB9E7;
+    border: 2px solid #4CB9E7;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+#myIntro .cv:hover {
+    background-color: #00ccb4;
+    color: white;
+    border-color: #00ccb4;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 204, 180, 0.3);
+}
+
 
 /* #navbarSupportedContent li:focus{
     border-bottom: 3px solid #4CB9E7;
@@ -252,7 +276,8 @@ body {
     color: #080e20;
     border-radius: 5px;
 }
-#about .cartEducation{
+
+#about .cartEducation {
     background-color: rgba(8, 14, 32, 0.9);
     width: 27vw;
     height: 30vw;
@@ -260,6 +285,7 @@ body {
     flex-direction: column;
     align-items: center;
 }
+
 #about .mobileButton {
     padding: 0;
 }
@@ -537,7 +563,7 @@ h5 {
     letter-spacing: .2vw;
 }
 
-#message{
+#message {
     border-radius: 10px;
     border-color: aliceblue;
     color: black;
@@ -568,8 +594,9 @@ footer a:hover {
     color: #080e20;
     border-radius: 5px;
 }
-@media only screen and (max-width: 1308px){
-    #about .cartEducation{
+
+@media only screen and (max-width: 1308px) {
+    #about .cartEducation {
         background-color: rgba(8, 14, 32, 0.9);
         width: 27vw;
         height: 50vw;
@@ -579,8 +606,9 @@ footer a:hover {
     }
 
 }
+
 @media only screen and (max-width: 991px) {
-    #about .cartEducation{
+    #about .cartEducation {
         background-color: rgba(8, 14, 32, 0.9);
         width: 27vw;
         height: 80vw;
@@ -588,6 +616,7 @@ footer a:hover {
         flex-direction: column;
         align-items: center;
     }
+
     #experience #work {
         border-right: none;
     }
@@ -671,6 +700,7 @@ footer a:hover {
     #experience h1 {
         font-size: 9vw;
     }
+
     #about #myPara {
         font-size: 2.5vw;
     }
@@ -680,7 +710,8 @@ footer a:hover {
         position: relative;
         bottom: 50vw;
     }
-    #about .cartEducation{
+
+    #about .cartEducation {
         background-color: rgba(8, 14, 32, 0.9);
         width: 100%;
         height: 80vw;
@@ -691,11 +722,13 @@ footer a:hover {
         bottom: 30vw;
         margin-left: auto;
         margin-right: auto;
-        
+
     }
-    #about .cartEducation .education-card p{
+
+    #about .cartEducation .education-card p {
         font-size: 2.5vw;
     }
+
     #about .mobileButton a {
         font-size: 2.5vw;
         margin-left: 10px;
@@ -756,13 +789,16 @@ footer a:hover {
     #about #myPara {
         font-size: 4vw;
     }
-    #about .cartEducation{
+
+    #about .cartEducation {
         height: 110vw;
-        
+
     }
-    #about .cartEducation .education-card p{
+
+    #about .cartEducation .education-card p {
         font-size: 4vw;
     }
+
     #about .mobileButton a {
         font-size: 4vw;
     }
